@@ -1,0 +1,106 @@
+[
+  {
+    "nombre": "LICRA CORTA CON TIRANTES MUJER SIN COSTURAS",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      },
+      {
+        "tipo": "BADANA",
+        "nombre": "BADANA MUJER",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 20406
+      },
+      {
+        "tipo": "ELASTICOS",
+        "nombre": "ELASTICO TIRANTAS",
+        "unidad": "m",
+        "cantidad": 0.64,
+        "precioUnitario": 1600
+      },
+      {
+        "tipo": "TELA",
+        "nombre": "NUEVA MASERATI",
+        "unidad": "m",
+        "cantidad": 0.029333333333333336,
+        "precioUnitario": 352.00000000000006
+      },
+      {
+        "nombre": "TELA PARA PANTALONETA SIN COSTURA",
+        "unidad": "m",
+        "cantidad": 0.39141069346666674,
+        "precioUnitario": 26420.221809000006
+      },
+      {
+        "tipo": "REFLECTIVO",
+        "nombre": "REFLECTIVO SUBLIMABLE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 520
+      },
+      {
+        "tipo": "TINTA",
+        "nombre": "TINTA DE SUBLIMACION",
+        "unidad": "ML",
+        "cantidad": 7.5,
+        "precioUnitario": 1305
+      },
+      {
+        "tipo": "HILO",
+        "nombre": "HILO DE COSTURA",
+        "unidad": "m",
+        "cantidad": 180,
+        "precioUnitario": 900
+      },
+      {
+        "tipo": "PAPEL",
+        "nombre": "PAPEL DE SUBLIMACION",
+        "unidad": "m",
+        "cantidad": 1.2,
+        "precioUnitario": 2452.7999999999997
+      },
+      {
+        "nombre": "PAPEL BOND ",
+        "unidad": "Und.",
+        "cantidad": 6,
+        "precioUnitario": 1872
+      },
+      {
+        "nombre": "PERIODICO",
+        "unidad": "Und.",
+        "cantidad": 3,
+        "precioUnitario": 630
+      },
+      {
+        "tipo": "OTROS",
+        "nombre": "ETIQUETAS EMPAQUE",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 320
+      },
+      {
+        "nombre": "BOLSA RESELLABLE",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 102
+      },
+      {
+        "nombre": "BOLSA OTRAS",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 272
+      },
+      {
+        "nombre": "BOLSA MAHIZ 20 X 30 CM IMPRESA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 118
+      }
+    ]
+  }
+]

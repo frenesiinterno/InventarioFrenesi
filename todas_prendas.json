@@ -1,0 +1,2900 @@
+[
+  {
+    "nombre": "BLUSA ESQUELETO DEPORTIVA",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "NUEVA MASERATI",
+        "unidad": "m",
+        "cantidad": 0.37065644946666665,
+        "precioUnitario": 4447.8773936
+      }
+    ]
+  },
+  {
+    "nombre": "Total BLUSA ESQUELETO DEPORTIVA",
+    "materias": []
+  },
+  {
+    "nombre": "BUSO LICRADO",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "COMPACT BLANCA",
+        "unidad": "m",
+        "cantidad": 0.6876189256,
+        "precioUnitario": 22421.8779259648
+      }
+    ]
+  },
+  {
+    "nombre": "Total BUSO LICRADO",
+    "materias": []
+  },
+  {
+    "nombre": "CAMISETA HOMBRE",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "42K",
+        "unidad": "m",
+        "cantidad": 0.23042256306666667,
+        "precioUnitario": 2737.8808943581334
+      }
+    ]
+  },
+  {
+    "nombre": "Total CAMISETA HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "CAMISETA MANGA SIZA MUJER",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "NUEVA MASERATI",
+        "unidad": "m",
+        "cantidad": 0.38286993253333335,
+        "precioUnitario": 4594.4391904
+      }
+    ]
+  },
+  {
+    "nombre": "Total CAMISETA MANGA SIZA MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "CAMISETA MUJER",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "42K",
+        "unidad": "m",
+        "cantidad": 0.36540807680000004,
+        "precioUnitario": 4341.778768537601
+      }
+    ]
+  },
+  {
+    "nombre": "Total CAMISETA MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "CHALECO HOMBRE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHALECO HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "CHALECO MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHALECO MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA  MANGA CORTA MUJER (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA  MANGA CORTA MUJER (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA HOMBRE (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA HOMBRE (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA HOMBRE EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA HOMBRE EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA HOMBRE EDICIÓN ESPECIAL MALLA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA HOMBRE EDICIÓN ESPECIAL MALLA",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA HOMBRE EDICION ESPECIAL MALLA PLUSFIT",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA HOMBRE EDICION ESPECIAL MALLA PLUSFIT",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA HOMBRE EDICIÓN PREMIUN MANGAS MALLA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA HOMBRE EDICIÓN PREMIUN MANGAS MALLA",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA HOMBRE PLUS FIT",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA HOMBRE PLUS FIT",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA HOMBRE PLUS FIT EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA HOMBRE PLUS FIT EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA HOMBRE PLUSFIT EDICIÓN PREMIUM",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA HOMBRE PLUSFIT EDICIÓN PREMIUM",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA HOMBRE PROFIT",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA HOMBRE PROFIT",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA HOMBRE PROFIT EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA HOMBRE PROFIT EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA HOMBRE SILICONA (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA HOMBRE SILICONA (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA MUJER EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA MUJER EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA MUJER EDICIÓN ESPECIAL MALLA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA MUJER EDICIÓN ESPECIAL MALLA",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA MUJER EDICION ESPECIAL MALLA PLUSFIT",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA MUJER EDICION ESPECIAL MALLA PLUSFIT",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA MUJER EDICIÓN PREMIUM MANGAS MALLA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA MUJER EDICIÓN PREMIUM MANGAS MALLA",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA MUJER EDICIÓN PREMIUN",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA MUJER EDICIÓN PREMIUN",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA MUJER PLUS FIT",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA MUJER PLUS FIT",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA MUJER PLUS FIT EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA MUJER PLUS FIT EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA MUJER PLUSFIT EDICION PREMIUM",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA MUJER PLUSFIT EDICION PREMIUM",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA MUJER PROFIT",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA MUJER PROFIT",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA MUJER PROFIT EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA MUJER PROFIT EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA CORTA MUJER PROFIT SLIM",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA CORTA MUJER PROFIT SLIM",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA LARGA HOMBRE (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA LARGA HOMBRE (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA LARGA HOMBRE EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA LARGA HOMBRE EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA LARGA HOMBRE EDICION PREMIUN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA LARGA HOMBRE EDICION PREMIUN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA LARGA HOMBRE PLUSFIT EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA LARGA HOMBRE PLUSFIT EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA LARGA HOMBRE PLUSFIT EDICIÓN PREMIUN",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA LARGA HOMBRE PLUSFIT EDICIÓN PREMIUN",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA LARGA HOMBRE PREMIUM MALLA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA LARGA HOMBRE PREMIUM MALLA",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA LARGA HOMBRE PROFIT",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA LARGA HOMBRE PROFIT",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA LARGA HOMBRE PROFIT EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA LARGA HOMBRE PROFIT EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA LARGA MUJER (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA LARGA MUJER (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA LARGA MUJER EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA LARGA MUJER EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA LARGA MUJER EDICIÓN PREMIUN",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA LARGA MUJER EDICIÓN PREMIUN",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA LARGA MUJER EDICIÓN PREMIUN PLUSFIT",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA LARGA MUJER EDICIÓN PREMIUN PLUSFIT",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA LARGA MUJER PLUSFIT EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA LARGA MUJER PLUSFIT EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA LARGA MUJER PREMIUM MALLA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA LARGA MUJER PREMIUM MALLA",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA LARGA MUJER PROFIT",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA LARGA MUJER PROFIT",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA LARGA MUJER PROFIT EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA LARGA MUJER PROFIT EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA SIZA HOMBRE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA SIZA HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA MANGA SIZA MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA MANGA SIZA MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "COVER",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "MAGDA",
+        "unidad": "m",
+        "cantidad": 2.8764873464000003,
+        "precioUnitario": 57529.74692800001
+      }
+    ]
+  },
+  {
+    "nombre": "Total COVER",
+    "materias": []
+  },
+  {
+    "nombre": "ELÁSTICOS",
+    "materias": [
+      {
+        "tipo": "SILICONAS",
+        "nombre": "ANGOSTA GRIP 650 45 MM",
+        "unidad": "m",
+        "cantidad": 0.6,
+        "precioUnitario": 3459
+      }
+    ]
+  },
+  {
+    "nombre": "Total ELÁSTICOS",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA CAPRI HOMBRE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA CAPRI HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA CAPRI MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA CAPRI MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA CAPRI MUJER EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA CAPRI MUJER EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA CORTA HOMBRE EDICIÓN ESPECIAL (REGULARFIT) -TC-HEE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA CORTA HOMBRE EDICIÓN ESPECIAL (REGULARFIT) -TC-HEE",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA CORTA HOMBRE PROFIT EDICIÓN ESPECIAL-TC-MPS",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA CORTA HOMBRE PROFIT EDICIÓN ESPECIAL-TC-MPS",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA CORTA HOMBRE PROFIT-TC-HP",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA CORTA HOMBRE PROFIT-TC-HP",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA CORTA HOMBRE SOLO MANGAS EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA CORTA HOMBRE SOLO MANGAS EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA CORTA HOMBRE-TC",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA CORTA HOMBRE-TC",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA CORTA MUJER EDICIÓN ESPECIAL (REGULARFIT) -TC-EE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA CORTA MUJER EDICIÓN ESPECIAL (REGULARFIT) -TC-EE",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA CORTA MUJER PROFIT EDICIÓN ESPECIAL-TC-MPS",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA CORTA MUJER PROFIT EDICIÓN ESPECIAL-TC-MPS",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA CORTA MUJER PROFIT-TC-MP",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA CORTA MUJER PROFIT-TC-MP",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA CORTA MUJER SOLO MANGAS EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA CORTA MUJER SOLO MANGAS EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA CORTA MUJER-TC",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA CORTA MUJER-TC",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA LARGA HOMBRE (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA LARGA HOMBRE (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA LARGA HOMBRE EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA LARGA HOMBRE EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA LARGA MUJER (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA LARGA MUJER (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA LARGA MUJER EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA LARGA MUJER EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA LARGA LICRA CAPRI HOMBRE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA LARGA LICRA CAPRI HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA LARGA LICRA CAPRI MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA LARGA LICRA CAPRI MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA LARGA LICRA CORTA HOMBRE (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA LARGA LICRA CORTA HOMBRE (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA LARGA LICRA CORTA HOMBRE EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA LARGA LICRA CORTA HOMBRE EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA LARGA LICRA CORTA HOMBRE PROFIT",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA LARGA LICRA CORTA HOMBRE PROFIT",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA LARGA LICRA CORTA HOMBRE PROFIT EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA LARGA LICRA CORTA HOMBRE PROFIT EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA LARGA LICRA CORTA MUJER (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA LARGA LICRA CORTA MUJER (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA LARGA LICRA CORTA MUJER EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA LARGA LICRA CORTA MUJER EDICIÓN ESPECIAL (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA LARGA LICRA CORTA MUJER PROFIT",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA LARGA LICRA CORTA MUJER PROFIT",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA LARGA LICRA CORTA MUJER PROFIT EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA LARGA LICRA CORTA MUJER PROFIT EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA LARGA LICRA LARGA HOMBRE EDICIÓN ESPECIAL (REGULARFIT) - TL-HS",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA LARGA LICRA LARGA HOMBRE EDICIÓN ESPECIAL (REGULARFIT) - TL-HS",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA LARGA LICRA LARGA HOMBRE-TL (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA LARGA LICRA LARGA HOMBRE-TL (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA LARGA LICRA LARGA MUJER EDICIÓN ESPECIAL-TL-EE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA LARGA LICRA LARGA MUJER EDICIÓN ESPECIAL-TL-EE",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA LARGA LICRA LARGA MUJER-TL (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA LARGA LICRA LARGA MUJER-TL (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA SIZA LICRA CAPRI HOMBRE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA SIZA LICRA CAPRI HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA SIZA LICRA CAPRI MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA SIZA LICRA CAPRI MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA SIZA LICRA CORTA CON HUECO MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA SIZA LICRA CORTA CON HUECO MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA SIZA LICRA CORTA HOMBRE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA SIZA LICRA CORTA HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA SIZA LICRA CORTA HOMBRE EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA SIZA LICRA CORTA HOMBRE EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA SIZA LICRA CORTA MUJER (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA SIZA LICRA CORTA MUJER (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA SIZA LICRA CORTA MUJER EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA SIZA LICRA CORTA MUJER EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA SIZA LICRA CORTA TRIATLON HOMBRE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 2000
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA SIZA LICRA CORTA TRIATLON HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA SIZA LICRA CORTA TRIATLÓN HOMBRE EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 2000
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA SIZA LICRA CORTA TRIATLÓN HOMBRE EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA SIZA LICRA CORTA TRIATLON MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 2000
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA SIZA LICRA CORTA TRIATLON MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA SIZA LICRA CORTA TRIATLÓN MUJER EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 2000
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA SIZA LICRA CORTA TRIATLÓN MUJER EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO TIPO KONA HOMBRE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO TIPO KONA HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO TIPO KONA HOMBRE EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO TIPO KONA HOMBRE EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO TIPO KONA MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO TIPO KONA MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO TIPO KONA MUJER EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO TIPO KONA MUJER EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO TIPO KONA PANTALON LARGO HOMBRE EDICIÓN ESPECIAL",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.45,
+        "precioUnitario": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO TIPO KONA PANTALON LARGO HOMBRE EDICIÓN ESPECIAL",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO TRIATLON MANGA LARGA LICRA CORTA MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 2000
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO TRIATLON MANGA LARGA LICRA CORTA MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "ESQUELETO HOMBRE",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "NUEVA MASERATI",
+        "unidad": "m",
+        "cantidad": 0.4969237999999999,
+        "precioUnitario": 5963.085599999999
+      }
+    ]
+  },
+  {
+    "nombre": "Total ESQUELETO HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "ESQUELETO MUJER",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "NUEVA MASERATI",
+        "unidad": "m",
+        "cantidad": 0.7758384072,
+        "precioUnitario": 9310.060886399999
+      }
+    ]
+  },
+  {
+    "nombre": "Total ESQUELETO MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "FALDAS",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "COMPACT BLANCA",
+        "unidad": "m",
+        "cantidad": 0.2718,
+        "precioUnitario": 8862.8544
+      }
+    ]
+  },
+  {
+    "nombre": "Total FALDAS",
+    "materias": []
+  },
+  {
+    "nombre": "JERSEY HOMBRE",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "COLMENA BLANCO",
+        "unidad": "m",
+        "cantidad": 0.7057380348000001,
+        "precioUnitario": 7136.423007897602
+      }
+    ]
+  },
+  {
+    "nombre": "Total JERSEY HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "JERSEY MUJER",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "COLMENA BLANCO",
+        "unidad": "m",
+        "cantidad": 0.5762820084,
+        "precioUnitario": 5827.3636689407995
+      }
+    ]
+  },
+  {
+    "nombre": "Total JERSEY MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CAPRI CON TIRANTES HOMBRE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CAPRI CON TIRANTES HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CAPRI CON TIRANTES MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CAPRI CON TIRANTES MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CAPRI SIN TIRANTES HOMBRE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CAPRI SIN TIRANTES HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CAPRI SIN TIRANTES MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CAPRI SIN TIRANTES MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA CON TIRANTES COSTURAS MUJER. IMPRESA COLORES.",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA CON TIRANTES COSTURAS MUJER. IMPRESA COLORES.",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA CON TIRANTES HOMBRE PROFIT",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA CON TIRANTES HOMBRE PROFIT",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA CON TIRANTES HOMBRE SIN COSTURAS",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA CON TIRANTES HOMBRE SIN COSTURAS",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA CON TIRANTES MUJER (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA CON TIRANTES MUJER (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA CON TIRANTES MUJER PROFIT",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA CON TIRANTES MUJER PROFIT",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA CON TIRANTES MUJER SIN COSTURAS",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA CON TIRANTES MUJER SIN COSTURAS",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA CON TIRANTES MUJER SIN COSTURAS REFLECTIVO",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA CON TIRANTES MUJER SIN COSTURAS REFLECTIVO",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA DEPORTIVA SIN COSTURA CON RESORTE CON BADANA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA DEPORTIVA SIN COSTURA CON RESORTE CON BADANA",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA DEPORTIVA SIN COSTURAS CON BADANA DE TRI MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA DEPORTIVA SIN COSTURAS CON BADANA DE TRI MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA SIN COSTURA SIN TIRANTES MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA SIN COSTURA SIN TIRANTES MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA SIN TIRANTES HOMBRE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA SIN TIRANTES HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA SIN TIRANTES MUJER (REGULARFIT)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA SIN TIRANTES MUJER (REGULARFIT)",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA SIN TIRANTES MUJER PROFIT",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA SIN TIRANTES MUJER PROFIT",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA LARGA CON TIRANTES HOMBRE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA LARGA CON TIRANTES HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA LARGA CON TIRANTES MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA LARGA CON TIRANTES MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA LARGA DEPORTIVA MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA LARGA DEPORTIVA MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA LARGA SIN TIRANTES HOMBRE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA LARGA SIN TIRANTES HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA LARGA SIN TIRANTES MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA LARGA SIN TIRANTES MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "MANGAS",
+    "materias": [
+      {
+        "tipo": "ELASTICOS",
+        "nombre": "RESORTE 1 CM",
+        "unidad": "m",
+        "cantidad": 0.8,
+        "precioUnitario": 238.4
+      }
+    ]
+  },
+  {
+    "nombre": "Total MANGAS",
+    "materias": []
+  },
+  {
+    "nombre": "MINIBLUSS",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "COMPACT BLANCA",
+        "unidad": "m",
+        "cantidad": 0.6164902165333334,
+        "precioUnitario": 20102.512980718933
+      }
+    ]
+  },
+  {
+    "nombre": "Total MINIBLUSS",
+    "materias": []
+  },
+  {
+    "nombre": "PANTALONETA DE BAÑO HOMBRE",
+    "materias": [
+      {
+        "tipo": "SILICONAS",
+        "nombre": "ANCHA GRIP 650 75 MM",
+        "unidad": "m",
+        "cantidad": 1.02,
+        "precioUnitario": 8139.6
+      }
+    ]
+  },
+  {
+    "nombre": "Total PANTALONETA DE BAÑO HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "PANTALONETA DE BAÑO HOMBRE CON BADANA",
+    "materias": [
+      {
+        "tipo": "BADANA",
+        "nombre": "BADANA HOMBRE",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 21692
+      }
+    ]
+  },
+  {
+    "nombre": "Total PANTALONETA DE BAÑO HOMBRE CON BADANA",
+    "materias": []
+  },
+  {
+    "nombre": "PANTALONETA DE BAÑO MUJER",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "RUTA COLORES",
+        "unidad": "m",
+        "cantidad": 0.141566,
+        "precioUnitario": 6620.192424
+      }
+    ]
+  },
+  {
+    "nombre": "Total PANTALONETA DE BAÑO MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "ROMPEVIENTOS HOMBRE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total ROMPEVIENTOS HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "ROMPEVIENTOS MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total ROMPEVIENTOS MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "SHORT MUJER",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "JABON",
+        "unidad": "m",
+        "cantidad": 0.3284000000000001,
+        "precioUnitario": 2451.1776
+      }
+    ]
+  },
+  {
+    "nombre": "Total SHORT MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "SHORT TIRO ALTO MUJER",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "JABON",
+        "unidad": "m",
+        "cantidad": 0.3284000000000001,
+        "precioUnitario": 2451.1776
+      }
+    ]
+  },
+  {
+    "nombre": "Total SHORT TIRO ALTO MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "TANGA DE BAÑO CORDON HOMBRE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CORDON",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 1000
+      }
+    ]
+  },
+  {
+    "nombre": "Total TANGA DE BAÑO CORDON HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "TANGA DE BAÑO MUJER CORDON",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CORDON",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 1000
+      }
+    ]
+  },
+  {
+    "nombre": "Total TANGA DE BAÑO MUJER CORDON",
+    "materias": []
+  },
+  {
+    "nombre": "TAPABOCAS HOMBRE",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "PACIFIC PLUS",
+        "unidad": "m",
+        "cantidad": 0.034,
+        "precioUnitario": 618.7660000000001
+      }
+    ]
+  },
+  {
+    "nombre": "Total TAPABOCAS HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "TAPABOCAS MUJER",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "PACIFIC PLUS",
+        "unidad": "m",
+        "cantidad": 0.026,
+        "precioUnitario": 473.174
+      }
+    ]
+  },
+  {
+    "nombre": "Total TAPABOCAS MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "TOP CORTO",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "COMPACT BLANCA",
+        "unidad": "m",
+        "cantidad": 0.19143424146666665,
+        "precioUnitario": 6242.287745745067
+      }
+    ]
+  },
+  {
+    "nombre": "Total TOP CORTO",
+    "materias": []
+  },
+  {
+    "nombre": "TOP LARGO",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "COMPACT BLANCA",
+        "unidad": "m",
+        "cantidad": 0.2134827748,
+        "precioUnitario": 6961.2463206784
+      }
+    ]
+  },
+  {
+    "nombre": "Total TOP LARGO",
+    "materias": []
+  },
+  {
+    "nombre": "TOP VESTIDO DE BAÑO",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "COMPACT BLANCA",
+        "unidad": "m",
+        "cantidad": 0.16012665666666667,
+        "precioUnitario": 5221.410020586667
+      }
+    ]
+  },
+  {
+    "nombre": "Total TOP VESTIDO DE BAÑO",
+    "materias": []
+  },
+  {
+    "nombre": "VESTIDO",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total VESTIDO",
+    "materias": []
+  },
+  {
+    "nombre": "VESTIDO DE BAÑO",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "COMPACT BLANCA",
+        "unidad": "m",
+        "cantidad": 0.37596096,
+        "precioUnitario": 12259.33498368
+      }
+    ]
+  },
+  {
+    "nombre": "Total VESTIDO DE BAÑO",
+    "materias": []
+  },
+  {
+    "nombre": "VESTIDO DE BAÑO CON HUECO MANGA LARGA",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "COMPACT BLANCA",
+        "unidad": "m",
+        "cantidad": 0.66376496,
+        "precioUnitario": 21644.04781568
+      }
+    ]
+  },
+  {
+    "nombre": "Total VESTIDO DE BAÑO CON HUECO MANGA LARGA",
+    "materias": []
+  },
+  {
+    "nombre": "VESTIDO DE BAÑO DOS PIEZAS",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "COMPACT BLANCA",
+        "unidad": "m",
+        "cantidad": 0.16012665666666667,
+        "precioUnitario": 5221.410020586667
+      }
+    ]
+  },
+  {
+    "nombre": "Total VESTIDO DE BAÑO DOS PIEZAS",
+    "materias": []
+  },
+  {
+    "nombre": "VESTIDO DE BAÑO HUECO",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "COMPACT BLANCA",
+        "unidad": "m",
+        "cantidad": 0.37596096,
+        "precioUnitario": 12259.33498368
+      }
+    ]
+  },
+  {
+    "nombre": "Total VESTIDO DE BAÑO HUECO",
+    "materias": []
+  },
+  {
+    "nombre": "VESTIDO DE BAÑO MANGA LARGA",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "COMPACT BLANCA",
+        "unidad": "m",
+        "cantidad": 0.66376496,
+        "precioUnitario": 21644.04781568
+      }
+    ]
+  },
+  {
+    "nombre": "Total VESTIDO DE BAÑO MANGA LARGA",
+    "materias": []
+  },
+  {
+    "nombre": "VESTIDO DE BAÑO MANGA LARGA DOS PIEZAS",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "COMPACT BLANCA",
+        "unidad": "m",
+        "cantidad": 0.5359306466666667,
+        "precioUnitario": 17475.62652650667
+      }
+    ]
+  },
+  {
+    "nombre": "Total VESTIDO DE BAÑO MANGA LARGA DOS PIEZAS",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA CORTA LICRA CORTA SIN COSTURAS MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.7,
+        "precioUnitario": 1540
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA CORTA LICRA CORTA SIN COSTURAS MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO MANGA LARGA LICRA CORTA SIN COSTURAS MUJER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.7,
+        "precioUnitario": 1540
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO MANGA LARGA LICRA CORTA SIN COSTURAS MUJER",
+    "materias": []
+  },
+  {
+    "nombre": "(en blanco)",
+    "materias": [
+      {
+        "tipo": "(en blanco)",
+        "nombre": "(en blanco)",
+        "unidad": "(en blanco)"
+      }
+    ]
+  },
+  {
+    "nombre": "Total (en blanco)",
+    "materias": []
+  },
+  {
+    "nombre": "BALACAS",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "COMPACT BLANCA",
+        "unidad": "m",
+        "cantidad": 0.03333333333333333,
+        "precioUnitario": 1086.9333333333334
+      }
+    ]
+  },
+  {
+    "nombre": "Total BALACAS",
+    "materias": []
+  },
+  {
+    "nombre": "BUFF CORTO",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "NUEVA MASERATI",
+        "unidad": "m",
+        "cantidad": 0.09000000000000001,
+        "precioUnitario": 1080.0000000000002
+      }
+    ]
+  },
+  {
+    "nombre": "Total BUFF CORTO",
+    "materias": []
+  },
+  {
+    "nombre": "BUFF LARGO",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "NUEVA MASERATI",
+        "unidad": "m",
+        "cantidad": 0.15,
+        "precioUnitario": 1800
+      }
+    ]
+  },
+  {
+    "nombre": "Total BUFF LARGO",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA CON TIRANTES HOMBRE",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA CON TIRANTES HOMBRE",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA SIN PRETINA SIN COSTURA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA SIN PRETINA SIN COSTURA",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA CON TIRANTES MUJER BITONO",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA CON TIRANTES MUJER BITONO",
+    "materias": []
+  },
+  {
+    "nombre": "TOP LARGO SIN COSTURA",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "JABON",
+        "unidad": "m",
+        "cantidad": 0.10909599999999998,
+        "precioUnitario": 814.2925439999999
+      }
+    ]
+  },
+  {
+    "nombre": "Total TOP LARGO SIN COSTURA",
+    "materias": []
+  },
+  {
+    "nombre": "TOP CORTO SIN COSTURA",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "JABON",
+        "unidad": "m",
+        "cantidad": 0.10909599999999998,
+        "precioUnitario": 814.2925439999999
+      }
+    ]
+  },
+  {
+    "nombre": "Total TOP CORTO SIN COSTURA",
+    "materias": []
+  },
+  {
+    "nombre": "JOGGER",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total JOGGER",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA POCKET BOLSILLO MALLA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA POCKET BOLSILLO MALLA",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CORTA POCKET BOLSILLO LICRA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CORTA POCKET BOLSILLO LICRA",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA AERO MANGA CORTA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA AERO MANGA CORTA",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA AERO MANGA LARGA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 1,
+        "precioUnitario": 3272
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA AERO MANGA LARGA",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA A PRO MANGA LARGA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 2,
+        "precioUnitario": 6544
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA A PRO MANGA LARGA",
+    "materias": []
+  },
+  {
+    "nombre": "CARGO (SUDADERA)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 2,
+        "precioUnitario": 6544
+      }
+    ]
+  },
+  {
+    "nombre": "Total CARGO (SUDADERA)",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA CLICK",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA CLICK",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA SPORT RIZE SILICONADA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA SPORT RIZE SILICONADA",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA SPORT RIZE CON DOBLADILLO",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA SPORT RIZE CON DOBLADILLO",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA SPORT RIZE LARGA CON DOBLADILLO",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA SPORT RIZE LARGA CON DOBLADILLO",
+    "materias": []
+  },
+  {
+    "nombre": "PIJAMA PANTALON",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total PIJAMA PANTALON",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO FLEX MANGA CORTA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.7,
+        "precioUnitario": 1540
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO FLEX MANGA CORTA",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO FLEX MANGA LARGA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.7,
+        "precioUnitario": 1540
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO FLEX MANGA LARGA",
+    "materias": []
+  },
+  {
+    "nombre": "ENTERIZO FLEX MANGA ZIZA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 0.7,
+        "precioUnitario": 1540
+      }
+    ]
+  },
+  {
+    "nombre": "Total ENTERIZO FLEX MANGA ZIZA",
+    "materias": []
+  },
+  {
+    "nombre": "PIJAMA SHORT",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total PIJAMA SHORT",
+    "materias": []
+  },
+  {
+    "nombre": "VESTIDO DE BAÑO PULSE",
+    "materias": [
+      {
+        "tipo": "TELA",
+        "nombre": "JABON",
+        "unidad": "m",
+        "cantidad": 0.19276095999999998,
+        "precioUnitario": 1438.7678054399998
+      }
+    ]
+  },
+  {
+    "nombre": "Total VESTIDO DE BAÑO PULSE",
+    "materias": []
+  },
+  {
+    "nombre": "CHAQUETA A PRO MANGA CORTA",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "CIERRE",
+        "unidad": "m",
+        "cantidad": 2,
+        "precioUnitario": 6544
+      }
+    ]
+  },
+  {
+    "nombre": "Total CHAQUETA A PRO MANGA CORTA",
+    "materias": []
+  },
+  {
+    "nombre": "PONCHO",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total PONCHO",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA SPORT RIZE CON DOBLADILLO (FORMATEX)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA SPORT RIZE CON DOBLADILLO (FORMATEX)",
+    "materias": []
+  },
+  {
+    "nombre": "LICRA SPORT RIZE SILICONADA (FORMATEX)",
+    "materias": [
+      {
+        "tipo": "ACCESORIOS",
+        "nombre": "MARQUILLA",
+        "unidad": "Und.",
+        "cantidad": 1,
+        "precioUnitario": 131
+      }
+    ]
+  },
+  {
+    "nombre": "Total LICRA SPORT RIZE SILICONADA (FORMATEX)",
+    "materias": []
+  },
+  {
+    "nombre": "SHORT RESORTE",
+    "materias": [
+      {
+        "tipo": "ELASTICOS",
+        "nombre": "RESORTE 4,5 CM",
+        "unidad": "m",
+        "cantidad": 1.5,
+        "precioUnitario": 1500
+      }
+    ]
+  },
+  {
+    "nombre": "Total SHORT RESORTE",
+    "materias": []
+  },
+  {
+    "nombre": "Total general",
+    "materias": []
+  }
+]
