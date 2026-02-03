@@ -1,0 +1,182 @@
+{
+  "nombre": "ENTERIZO MANGA LARGA LICRA CORTA SIN COSTURAS MUJER",
+  "materias": [
+    {
+      "tipo": "ACCESORIOS",
+      "nombre": "CIERRE",
+      "unidad": "m",
+      "cantidad": 0.7,
+      "precioUnitario": 1540,
+      "subtotal": 1078
+    },
+    {
+      "tipo": "N/A",
+      "nombre": "DESLIZADOR",
+      "unidad": "Und.",
+      "cantidad": 1,
+      "precioUnitario": 118,
+      "subtotal": 118
+    },
+    {
+      "tipo": "N/A",
+      "nombre": "MARQUILLA",
+      "unidad": "Und.",
+      "cantidad": 1,
+      "precioUnitario": 131,
+      "subtotal": 131
+    },
+    {
+      "tipo": "N/A",
+      "nombre": "SLIDER",
+      "unidad": "Und.",
+      "cantidad": 1,
+      "precioUnitario": 276,
+      "subtotal": 276
+    },
+    {
+      "tipo": "BADANA",
+      "nombre": "BADANA MUJER",
+      "unidad": "Und.",
+      "cantidad": 1,
+      "precioUnitario": 20406,
+      "subtotal": 20406
+    },
+    {
+      "tipo": "TELA",
+      "nombre": "COMPACT BLANCA",
+      "unidad": "m",
+      "cantidad": 0.1160737424,
+      "precioUnitario": 3784.9325921792,
+      "subtotal": 439.3312907059727
+    },
+    {
+      "tipo": "N/A",
+      "nombre": "MARSELLA BLANCA ( ACANALADA GRUESA)",
+      "unidad": "m",
+      "cantidad": 0.1328137664,
+      "precioUnitario": 3272.6640178624,
+      "subtotal": 434.65483437406226
+    },
+    {
+      "tipo": "N/A",
+      "nombre": "TELA PARA PANTALONETA SIN COSTURA",
+      "unidad": "m",
+      "cantidad": 0.6400830994285716,
+      "precioUnitario": 43205.60921142858,
+      "subtotal": 27655.180256750846
+    },
+    {
+      "tipo": "N/A",
+      "nombre": "MOJADA (GRUESA) SUBLIME MAX CIRE",
+      "unidad": "m",
+      "cantidad": 0.04508691086666666,
+      "precioUnitario": 1183.9822793586666,
+      "subtotal": 53.382103497157026
+    },
+    {
+      "tipo": "N/A",
+      "nombre": "NYLON EXPANDEX",
+      "unidad": "m",
+      "cantidad": 0.3376955824,
+      "precioUnitario": 4736.855934324801,
+      "subtotal": 1599.61532348671
+    },
+    {
+      "tipo": "N/A",
+      "nombre": "RUTA COLORES",
+      "unidad": "m",
+      "cantidad": 0.055710586799999996,
+      "precioUnitario": 2605.2498811152,
+      "subtotal": 145.13999963755802
+    },
+    {
+      "tipo": "REFLECTIVO",
+      "nombre": "REFLECTIVO SUBLIMABLE",
+      "unidad": "m",
+      "cantidad": 1,
+      "precioUnitario": 520,
+      "subtotal": 520
+    },
+    {
+      "tipo": "N/A",
+      "nombre": "CINTA REFLECTIVA",
+      "unidad": "m",
+      "cantidad": 0.02,
+      "precioUnitario": 20.48,
+      "subtotal": 0.4096
+    },
+    {
+      "tipo": "TINTA",
+      "nombre": "TINTA DE SUBLIMACION",
+      "unidad": "ML",
+      "cantidad": 7.5,
+      "precioUnitario": 1305,
+      "subtotal": 9787.5
+    },
+    {
+      "tipo": "HILO",
+      "nombre": "HILO DE COSTURA",
+      "unidad": "m",
+      "cantidad": 360,
+      "precioUnitario": 1800,
+      "subtotal": 648000
+    },
+    {
+      "tipo": "PAPEL",
+      "nombre": "PAPEL DE SUBLIMACION",
+      "unidad": "m",
+      "cantidad": 1.5,
+      "precioUnitario": 3066,
+      "subtotal": 4599
+    },
+    {
+      "tipo": "N/A",
+      "nombre": "PAPEL BOND ",
+      "unidad": "Und.",
+      "cantidad": 8,
+      "precioUnitario": 2496,
+      "subtotal": 19968
+    },
+    {
+      "tipo": "N/A",
+      "nombre": "PERIODICO",
+      "unidad": "Und.",
+      "cantidad": 4,
+      "precioUnitario": 840,
+      "subtotal": 3360
+    },
+    {
+      "tipo": "OTROS",
+      "nombre": "ETIQUETAS EMPAQUE",
+      "unidad": "Und.",
+      "cantidad": 1,
+      "precioUnitario": 320,
+      "subtotal": 320
+    },
+    {
+      "tipo": "N/A",
+      "nombre": "BOLSA RESELLABLE",
+      "unidad": "Und.",
+      "cantidad": 1,
+      "precioUnitario": 102,
+      "subtotal": 102
+    },
+    {
+      "tipo": "N/A",
+      "nombre": "BOLSA OTRAS",
+      "unidad": "Und.",
+      "cantidad": 1,
+      "precioUnitario": 272,
+      "subtotal": 272
+    },
+    {
+      "tipo": "N/A",
+      "nombre": "BOLSA MAHIZ 20 X 30 CM IMPRESA",
+      "unidad": "Und.",
+      "cantidad": 1,
+      "precioUnitario": 118,
+      "subtotal": 118
+    }
+  ],
+  "totalCalculado": 739383.2134084523
+}

@@ -1,0 +1,46 @@
+{
+  "name": "inventario-frenesi",
+  "version": "1.0.0",
+  "description": "Sistema de inventario para gestión de materia prima y producción",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev:all": "concurrently \"npm run server\" \"npm run client\"",
+    "migrate:op-items": "node backend/scripts/run_migration_op_items.js",
+    "migrate:kardex": "node backend/scripts/run_migration_kardex.js",
+    "migrate:proveedores": "node backend/scripts/run_migration_proveedores.js",
+    "migrate:siigo": "node backend/scripts/run_migration_siigo.js",
+    "migrate:pdf-fields": "node backend/scripts/run_migration_pdf_fields.js",
+    "migrate:align-schema": "node backend/scripts/run_migrations.js",
+    "test:procesar-ordenes": "node backend/scripts/test_procesar_ordenes.js"
+  },
+  "keywords": [
+    "inventario",
+    "produccion",
+    "materia-prima"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.5",
+    "pdf-parse": "^1.1.1",
+    "pdfkit": "^0.13.0",
+    "string-similarity": "^4.0.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.2"
+  }
+}
