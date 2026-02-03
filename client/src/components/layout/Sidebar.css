@@ -1,0 +1,118 @@
+/* Overlay para móvil */
+.sidebar-overlay {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: none;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  width: 250px;
+  height: calc(100vh - 56px);
+  background-color: #093a6b;
+  padding-top: 20px;
+  z-index: 1000;
+  overflow-y: auto;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid rgba(4, 50, 117, 0.849);
+  margin-bottom: 10px;
+}
+
+.sidebar-close-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.sidebar-close-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar .nav-link {
+  color: #fff;
+  padding: 12px 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-left: 3px solid transparent;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #1d64ac;
+  color: #fff;
+  border-left-color: #007bff;
+  padding-left: 17px;
+}
+
+.sidebar .nav-link.active {
+  background-color: #007bff;
+  color: #fff;
+  border-left-color: #0056b3;
+  font-weight: 600;
+}
+
+/* Responsive para tablets */
+@media (max-width: 991.98px) {
+  .sidebar-overlay {
+    display: block;
+  }
+
+  .sidebar {
+    transform: translateX(-100%);
+    width: 280px;
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  .sidebar .nav-link {
+    padding: 14px 20px;
+    font-size: 1rem;
+  }
+}
+
+/* Responsive para móviles */
+@media (max-width: 575.98px) {
+  .sidebar {
+    width: 85%;
+    max-width: 280px;
+  }
+
+  .sidebar .nav-link {
+    padding: 12px 15px;
+    font-size: 0.95rem;
+  }
+
+  .sidebar-header {
+    padding: 12px 15px;
+  }
+}
+
