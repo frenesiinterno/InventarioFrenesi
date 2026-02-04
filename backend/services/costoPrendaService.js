@@ -4,7 +4,7 @@ const MateriaPrimaModel = require('../models/MateriaPrimaModel');
 
 class CostoPrendaService {
   /**
-   * Calcular costo de una prenda basado en ficha técnica y PEPS
+   * Calcular costo de una prenda basado en ficha técnica y PEPS (simulación)
    * @param {number} prendaId - ID de la prenda
    * @param {number} cantidad - Cantidad de prendas a producir
    * @returns {Object} - { costo_unitario, costo_total, detalles_materias }
@@ -25,15 +25,20 @@ class CostoPrendaService {
       const consumoPorPrenda = parseFloat(item.consumo);
       const consumoTotal = consumoPorPrenda * cantidad;
 
-      // Obtener costo promedio ponderado usando PEPS
-      const costoPromedio = await KardexModel.getCostoPromedio(item.materia_prima_id);
+      // Verificar stock disponible antes de calcular costo
+      const stockDisponible = await MateriaPrimaModel.getStockDisponible(item.materia_prima_id);
+      if (stockDisponible < consumoTotal) {
+        throw new Error(`Stock insuficiente para ${item.nombre_materia}. Disponible: ${stockDisponible}, Requerido: ${consumoTotal}`);
+      }
 
-      if (costoPromedio === 0) {
+      // Simular consumo PEPS para obtener costo real (sin consumir realmente)
+      const costoSimulado = await KardexModel.simularConsumoPEPS(item.materia_prima_id, consumoTotal);
+
+      if (costoSimulado.costo_total === 0) {
         throw new Error(`No hay stock disponible o costo definido para materia prima: ${item.nombre_materia}`);
       }
 
-      const costoMateria = consumoTotal * costoPromedio;
-      costoTotalPrenda += costoMateria;
+      costoTotalPrenda += costoSimulado.costo_total;
 
       detallesMaterias.push({
         materia_prima_id: item.materia_prima_id,
@@ -41,8 +46,9 @@ class CostoPrendaService {
         consumo_por_prenda: consumoPorPrenda,
         unidad: item.unidad,
         consumo_total: consumoTotal,
-        costo_unitario_promedio: costoPromedio,
-        costo_total_materia: costoMateria
+        costo_unitario_promedio: costoSimulado.costo_unitario,
+        costo_total_materia: costoSimulado.costo_total,
+        lotes_simulados: costoSimulado.lotes_utilizados
       });
     }
 

@@ -13,8 +13,15 @@ const connection = mysql.createConnection({
 
 console.log('🔄 Ejecutando migración del sistema de Kardex...\n');
 
-const sqlPath = path.join(__dirname, '..', '..', 'migrations', 'create_kardex_system.sql');
-const sql = fs.readFileSync(sqlPath, 'utf8');
+const baseSqlPath = path.join(__dirname, '..', '..', 'migrations', 'create_kardex_system.sql');
+const extraSqlPath = path.join(__dirname, '..', '..', 'migrations', '20260203_create_kardex_table.sql');
+let sql = '';
+if (fs.existsSync(baseSqlPath)) {
+  sql += fs.readFileSync(baseSqlPath, 'utf8') + '\n';
+}
+if (fs.existsSync(extraSqlPath)) {
+  sql += fs.readFileSync(extraSqlPath, 'utf8') + '\n';
+}
 
 connection.query(sql, (err, results) => {
   if (err) {
@@ -24,9 +31,9 @@ connection.query(sql, (err, results) => {
   }
   
   console.log('✅ Migración del Kardex ejecutada correctamente');
-  console.log('\nTablas creadas:');
-  console.log('  - kardex_movimientos');
-  console.log('  - kardex_capas');
+  console.log('\nTablas creadas o verificadas:');
+  console.log('  - kardex');
+  console.log('  - lotes_materia_prima (verificar existencia)');
   console.log('\n✨ El sistema de Kardex está listo para usar.');
   
   connection.end();

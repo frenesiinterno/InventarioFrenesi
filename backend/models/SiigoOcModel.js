@@ -73,9 +73,9 @@ class SiigoOcModel {
           si.observaciones,
           si.created_at,
           si.updated_at,
-          ft.producto_id,
-          p.nombre as producto_nombre,
-          p.codigo as producto_codigo
+          ft.prenda_id,
+          p.nombre as prenda_nombre,
+          p.codigo as prenda_codigo
          FROM siigo_oc_items si
          LEFT JOIN fichas_tecnicas ft ON si.ficha_tecnica_id = ft.id
          LEFT JOIN prendas p ON ft.prenda_id = p.id

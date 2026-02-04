@@ -8,7 +8,7 @@ class AlertaModel {
         a.*,
         mp.codigo as materia_referencia,
         mp.nombre as materia_nombre,
-        mp.stock_actual,
+        (SELECT COALESCE(SUM(l.cantidad_disponible), 0) FROM lotes_materia_prima l WHERE l.materia_prima_id = mp.id) as stock_actual,
         mp.stock_minimo
       FROM alertas a
       INNER JOIN materias_primas mp ON a.materia_prima_id = mp.id
@@ -26,7 +26,7 @@ class AlertaModel {
         a.*,
         mp.codigo as materia_referencia,
         mp.nombre as materia_nombre,
-        mp.stock_actual,
+        (SELECT COALESCE(SUM(l.cantidad_disponible), 0) FROM lotes_materia_prima l WHERE l.materia_prima_id = mp.id) as stock_actual,
         mp.stock_minimo
       FROM alertas a
       INNER JOIN materias_primas mp ON a.materia_prima_id = mp.id
@@ -74,8 +74,10 @@ class AlertaModel {
   // Verificar y crear alertas automáticas
   static async verificarAlertas() {
     const query = `
-      SELECT * FROM materias_primas 
-      WHERE activo = 1 AND stock_actual <= stock_minimo
+      SELECT mp.*, (SELECT COALESCE(SUM(l.cantidad_disponible), 0) FROM lotes_materia_prima l WHERE l.materia_prima_id = mp.id) as stock_actual
+      FROM materias_primas mp
+      WHERE mp.activo = 1
+        AND (SELECT COALESCE(SUM(l.cantidad_disponible), 0) FROM lotes_materia_prima l WHERE l.materia_prima_id = mp.id) <= mp.stock_minimo
     `;
     const [materias] = await db.execute(query);
 

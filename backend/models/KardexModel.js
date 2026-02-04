@@ -2,11 +2,8 @@ const db = require('../database/db');
 
 class KardexModel {
   /**
-
-class KardexModel {
-  /**
-   * Registrar entrada de materia prima en el Kardex
-   * @param {Object} data - { materia_prima_id, cantidad, costo_unitario, referencia, referencia_id, motivo, observaciones }
+   * Registrar entrada de materia prima en el Kardex usando lotes PEPS
+   * @param {Object} data - { materia_prima_id, cantidad, costo_unitario, referencia, referencia_id, compra_id, motivo, observaciones }
    */
   static async registrarEntrada(data) {
     const connection = await db.getConnection();
@@ -14,72 +11,51 @@ class KardexModel {
       await connection.beginTransaction();
 
       const fecha = data.fecha || new Date();
-
-      // Obtener saldo anterior
-      const [saldoAnterior] = await connection.execute(
-        `SELECT saldo_cantidad, saldo_costo 
-         FROM kardex_movimientos 
-         WHERE materia_prima_id = ? 
-         ORDER BY fecha DESC, id DESC 
-         LIMIT 1`,
-        [data.materia_prima_id]
-      );
-
-      const saldoCantidadAnterior = parseFloat(saldoAnterior[0]?.saldo_cantidad || 0);
-      const saldoCostoAnterior = parseFloat(saldoAnterior[0]?.saldo_costo || 0);
-      
-      // Calcular nuevos saldos
       const nuevaCantidad = parseFloat(data.cantidad);
       const costoUnitario = parseFloat(data.costo_unitario);
-      const nuevoSaldoCantidad = saldoCantidadAnterior + nuevaCantidad;
-      const nuevoSaldoCosto = saldoCostoAnterior + (nuevaCantidad * costoUnitario);
-      
 
-      // Insertar movimiento en Kardex
-      const [result] = await connection.execute(
-        `INSERT INTO kardex_movimientos 
-         (materia_prima_id, fecha, tipo, cantidad, costo_unitario, saldo_cantidad, saldo_costo, referencia, referencia_id, motivo, observaciones)
-         VALUES (?, ?, 'ENTRADA', ?, ?, ?, ?, ?, ?, ?, ?)`,
+      // Crear lote de materia prima (PEPS - lote nuevo)
+      const [loteResult] = await connection.execute(
+        `INSERT INTO lotes_materia_prima
+         (materia_prima_id, factura_item_id, cantidad_original, cantidad_disponible, unidad_base, costo_unitario, fecha_ingreso)
+         VALUES (?, ?, ?, ?, ?, ?, ?)`,
         [
           data.materia_prima_id,
-          fecha,
+          data.factura_item_id || null, // Puede ser null si no viene de factura
           nuevaCantidad,
+          nuevaCantidad,
+          data.unidad_base || 'unidad',
           costoUnitario,
-          nuevoSaldoCantidad,
-          nuevoSaldoCosto,
-          data.referencia || 'OTRO',
-          data.referencia_id || null,
-          data.motivo || null,
-          data.observaciones || null
+          fecha
         ]
       );
 
-      const movimientoId = result.insertId;
+      const loteId = loteResult.insertId;
 
-      // Crear capa PEPS
+      // Registrar movimiento de entrada en kardex
       await connection.execute(
-        `INSERT INTO kardex_capas 
-         (materia_prima_id, kardex_movimiento_id, cantidad_restante, costo_unitario, fecha_entrada)
-         VALUES (?, ?, ?, ?, ?)`,
+        `INSERT INTO kardex
+         (lote_id, tipo, referencia_tipo, referencia_id, cantidad, fecha)
+         VALUES (?, 'entrada', ?, ?, ?, ?)`,
         [
-          data.materia_prima_id,
-          movimientoId,
+          loteId,
+          data.referencia_tipo || 'compra',
+          data.referencia_id || data.compra_id || null,
           nuevaCantidad,
-          costoUnitario,
           fecha
         ]
       );
 
       // Actualizar stock en materia_prima
       await connection.execute(
-        `UPDATE materias_primas 
-         SET stock_actual = stock_actual + ? 
+        `UPDATE materias_primas
+         SET stock_actual = stock_actual + ?
          WHERE id = ?`,
         [nuevaCantidad, data.materia_prima_id]
       );
 
       await connection.commit();
-      return movimientoId;
+      return loteId;
     } catch (error) {
       await connection.rollback();
       throw error;
@@ -204,28 +180,23 @@ class KardexModel {
    * @param {Object} options - { limit, offset, fechaDesde, fechaHasta }
    */
   static async getMovimientosByMateria(materiaPrimaId, options = {}) {
+    const params = [materiaPrimaId];
     let query = `
       SELECT
         k.*,
-        lmp.cantidad_original,
-        lmp.cantidad_disponible,
-        lmp.costo_unitario as lote_costo_unitario,
-        lmp.fecha_ingreso,
+        lmp.materia_prima_id,
         mp.nombre as materia_nombre,
         mp.unidad_base,
         CASE
-          WHEN k.referencia_tipo = 'factura' THEN CONCAT('Factura #', fc.numero_factura)
-          WHEN k.referencia_tipo = 'orden' THEN CONCAT('OP #', op.codigo_siigo)
-          ELSE 'Otro'
+          WHEN LOWER(k.referencia_tipo) = 'compra' THEN CONCAT('Compra #', k.referencia_id)
+          WHEN LOWER(k.referencia_tipo) = 'orden' THEN CONCAT('OP #', k.referencia_id)
+          ELSE k.referencia_tipo
         END as referencia_descripcion
       FROM kardex k
       INNER JOIN lotes_materia_prima lmp ON k.lote_id = lmp.id
       INNER JOIN materias_primas mp ON lmp.materia_prima_id = mp.id
-      LEFT JOIN facturas_compra fc ON k.referencia_tipo = 'factura' AND k.referencia_id = fc.id
-      LEFT JOIN ordenes_produccion op ON k.referencia_tipo = 'orden' AND k.referencia_id = op.id
-      WHERE mp.id = ?
+      WHERE lmp.materia_prima_id = ?
     `;
-    const params = [materiaPrimaId];
 
     if (options.fechaDesde) {
       query += ` AND k.fecha >= ?`;
@@ -257,7 +228,7 @@ class KardexModel {
   }
 
   /**
-   * Obtener saldo actual de una materia prima (desde lotes)
+   * Obtener saldo actual de una materia prima (desde kardex_capas)
    * @param {number} materiaPrimaId
    */
   static async getSaldoActual(materiaPrimaId) {
@@ -283,7 +254,7 @@ class KardexModel {
 
   /**
    * Calcular pronóstico de consumo basado en promedio de días
-   * @param {number} materiaPrimaId 
+   * @param {number} materiaPrimaId
    * @param {number} diasAnalizar - Días hacia atrás para analizar (default: 30)
    * @returns {Object} - { consumo_promedio_diario, dias_restantes, fecha_estimada_agotamiento, consumo_total_periodo }
    */
@@ -291,13 +262,14 @@ class KardexModel {
     const fechaInicio = new Date();
     fechaInicio.setDate(fechaInicio.getDate() - diasAnalizar);
 
-    // Obtener salidas del período
+    // Obtener salidas del período desde kardex (movimientos por lote)
     const [salidas] = await db.execute(
-      `SELECT SUM(cantidad) as total_salidas, COUNT(*) as total_movimientos
-       FROM kardex_movimientos 
-       WHERE materia_prima_id = ? 
-         AND tipo = 'SALIDA'
-         AND fecha >= ?`,
+      `SELECT SUM(k.cantidad) as total_salidas, COUNT(*) as total_movimientos
+       FROM kardex k
+       INNER JOIN lotes_materia_prima lmp ON k.lote_id = lmp.id
+       WHERE lmp.materia_prima_id = ?
+         AND k.tipo = 'salida'
+         AND k.fecha >= ?`,
       [materiaPrimaId, fechaInicio]
     );
 
@@ -311,7 +283,7 @@ class KardexModel {
     // Calcular días restantes
     let diasRestantes = null;
     let fechaEstimadaAgotamiento = null;
-    
+
     if (consumoPromedioDiario > 0) {
       diasRestantes = Math.floor(cantidadActual / consumoPromedioDiario);
       const fechaAgotamiento = new Date();
@@ -332,24 +304,128 @@ class KardexModel {
   }
 
   /**
+   * Registrar salida de materia prima usando PEPS (desde orden de producción o manual)
+   * @param {Object} data - { materia_prima_id, cantidad, referencia, referencia_id, motivo, observaciones }
+   * @returns {Object} - { movimiento_id, costo_total, costo_unitario, capas_utilizadas }
+   */
+  static async registrarSalida(data) {
+    // Consumir lotes con PEPS e insertar movimientos en `kardex`
+    const connection = await db.getConnection();
+    try {
+      await connection.beginTransaction();
+
+      const fecha = data.fecha || new Date();
+      const cantidadRequerida = parseFloat(data.cantidad);
+
+      // Verificar stock disponible desde lotes
+      const [stockDisponible] = await connection.execute(
+        `SELECT COALESCE(SUM(cantidad_disponible), 0) as stock_disponible
+         FROM lotes_materia_prima
+         WHERE materia_prima_id = ?`,
+        [data.materia_prima_id]
+      );
+
+      const stockActual = parseFloat(stockDisponible[0]?.stock_disponible || 0);
+      if (stockActual < cantidadRequerida) {
+        throw new Error(`Stock insuficiente. Disponible: ${stockActual}, Requerido: ${cantidadRequerida}`);
+      }
+
+      // Obtener lotes disponibles (PEPS - más antiguas primero)
+      const [lotes] = await connection.execute(
+        `SELECT id, cantidad_disponible, costo_unitario
+         FROM lotes_materia_prima
+         WHERE materia_prima_id = ? AND cantidad_disponible > 0
+         ORDER BY fecha_ingreso ASC, id ASC`,
+        [data.materia_prima_id]
+      );
+
+      let cantidadRestante = cantidadRequerida;
+      let costoTotal = 0;
+      const lotesUtilizados = [];
+
+      // Consumir lotes en orden PEPS
+      for (const lote of lotes) {
+        if (cantidadRestante <= 0) break;
+
+        const cantidadLote = parseFloat(lote.cantidad_disponible);
+        const costoUnitario = parseFloat(lote.costo_unitario);
+        const cantidadAConsumir = Math.min(cantidadRestante, cantidadLote);
+
+        costoTotal += cantidadAConsumir * costoUnitario;
+        cantidadRestante -= cantidadAConsumir;
+
+        // Actualizar lote
+        const nuevaCantidadLote = cantidadLote - cantidadAConsumir;
+        await connection.execute(
+          `UPDATE lotes_materia_prima SET cantidad_disponible = ? WHERE id = ?`,
+          [nuevaCantidadLote, lote.id]
+        );
+
+        // Registrar movimiento de salida en kardex (por lote)
+        await connection.execute(
+          `INSERT INTO kardex
+           (lote_id, tipo, referencia_tipo, referencia_id, cantidad, fecha)
+           VALUES (?, 'salida', ?, ?, ?, ?)`,
+          [lote.id, (data.referencia || 'OTRO'), data.referencia_id || null, cantidadAConsumir, fecha]
+        );
+
+        lotesUtilizados.push({
+          lote_id: lote.id,
+          cantidad: cantidadAConsumir,
+          costo_unitario: costoUnitario
+        });
+      }
+
+      if (cantidadRestante > 0) {
+        throw new Error(`Error al consumir todos los lotes. Faltan ${cantidadRestante} unidades`);
+      }
+
+      // Calcular costo unitario promedio
+      const costoUnitarioPromedio = cantidadRequerida > 0 ? costoTotal / cantidadRequerida : 0;
+
+      // Actualizar stock en materia_prima
+      await connection.execute(
+        `UPDATE materias_primas
+         SET stock_actual = stock_actual - ?
+         WHERE id = ?`,
+        [cantidadRequerida, data.materia_prima_id]
+      );
+
+      await connection.commit();
+      return {
+        costo_total: costoTotal,
+        costo_unitario: costoUnitarioPromedio,
+        lotes_utilizados: lotesUtilizados
+      };
+    } catch (error) {
+      await connection.rollback();
+      throw error;
+    } finally {
+      connection.release();
+    }
+  }
+
+
+  /**
    * Obtener análisis de consumo por período
-   * @param {number} materiaPrimaId 
-   * @param {Date} fechaDesde 
-   * @param {Date} fechaHasta 
+   * @param {number} materiaPrimaId
+   * @param {Date} fechaDesde
+   * @param {Date} fechaHasta
    * @returns {Object} - Análisis de consumo
    */
   static async getAnalisisConsumo(materiaPrimaId, fechaDesde, fechaHasta) {
     const [resultados] = await db.execute(
-      `SELECT 
-        tipo,
-        SUM(cantidad) as total_cantidad,
-        SUM(cantidad * costo_unitario) as total_costo,
+      `SELECT
+        k.tipo,
+        SUM(k.cantidad) as total_cantidad,
+        SUM(k.cantidad * lmp.costo_unitario) as total_costo,
         COUNT(*) as total_movimientos
-       FROM kardex_movimientos 
-       WHERE materia_prima_id = ? 
-         AND fecha >= ? 
-         AND fecha <= ?
-       GROUP BY tipo`,
+       FROM kardex k
+       INNER JOIN lotes_materia_prima lmp ON k.lote_id = lmp.id
+       WHERE lmp.materia_prima_id = ?
+         AND k.fecha >= ?
+         AND k.fecha <= ?
+       GROUP BY k.tipo`,
       [materiaPrimaId, fechaDesde, fechaHasta]
     );
 

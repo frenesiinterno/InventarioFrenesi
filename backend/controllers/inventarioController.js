@@ -20,7 +20,7 @@ exports.getMovimientos = async (req, res) => {
   try {
     const { limit = 500 } = req.query;
     
-    // Obtener movimientos del Kardex
+    // Obtener movimientos del Kardex (por lote)
     const query = `
       SELECT 
         k.*,
@@ -28,15 +28,16 @@ exports.getMovimientos = async (req, res) => {
         mp.nombre as materia_nombre,
         um.codigo as unidad_codigo,
         um.nombre as unidad_nombre,
-        op.numero_orden,
+        op.codigo_siigo as numero_orden,
         c.numero_factura,
         c.proveedor_nombre as compra_proveedor_nombre,
         p.nombre as proveedor_nombre_registrado
-      FROM kardex_movimientos k
-      INNER JOIN materias_primas mp ON k.materia_prima_id = mp.id
+      FROM kardex k
+      INNER JOIN lotes_materia_prima lmp ON k.lote_id = lmp.id
+      INNER JOIN materias_primas mp ON lmp.materia_prima_id = mp.id
       INNER JOIN unidades_medida um ON mp.unidad_medida_id = um.id
-      LEFT JOIN ordenes_produccion op ON k.referencia = 'OP' AND k.referencia_id = op.id
-      LEFT JOIN compras c ON k.compra_id = c.id
+      LEFT JOIN ordenes_produccion op ON LOWER(k.referencia_tipo) = 'orden' AND k.referencia_id = op.id
+      LEFT JOIN compras c ON LOWER(k.referencia_tipo) = 'compra' AND k.referencia_id = c.id
       LEFT JOIN proveedores p ON c.proveedor_id = p.id
       ORDER BY k.fecha DESC, k.id DESC
       LIMIT ${parseInt(limit)}
@@ -142,7 +143,14 @@ exports.createMovimiento = async (req, res) => {
         motivo: motivo || 'Salida manual de inventario',
         observaciones: observaciones || null
       });
-      movimientoId = resultado.movimiento_id;
+      // Las salidas por lotes no generan un único movimiento_id; devolvemos el resultado detallado
+      movimientoId = null;
+      // Adjuntar el resultado para la respuesta
+      return res.status(201).json({ 
+        success: true, 
+        data: { resultado }, 
+        message: 'Salida registrada exitosamente en el Kardex (PEPS por lotes)' 
+      });
     } else {
       // Para ajustes, usar el sistema antiguo (no tiene costo)
       movimientoId = await MovimientoInventarioModel.create({
@@ -169,18 +177,9 @@ exports.getResumen = async (req, res) => {
   try {
     const materias = await MateriaPrimaModel.getAll();
 
-    // Valor total inventario debe salir del Kardex (saldo_costo), no de materia's precio_unitario
-    // Sumamos el último saldo_costo por materia_prima_id en una sola consulta.
+    // Valor total inventario calculado desde lotes (cantidad_disponible * costo_unitario)
     const [valorRows] = await db.execute(
-      `
-      SELECT COALESCE(SUM(k.saldo_costo), 0) AS valor_total
-      FROM kardex_movimientos k
-      INNER JOIN (
-        SELECT materia_prima_id, MAX(id) AS last_id
-        FROM kardex_movimientos
-        GROUP BY materia_prima_id
-      ) last_k ON last_k.last_id = k.id
-      `
+      `SELECT COALESCE(SUM(cantidad_disponible * costo_unitario), 0) AS valor_total FROM lotes_materia_prima`
     );
     const valorTotalInventario = parseDecimal(valorRows?.[0]?.valor_total || 0);
 
